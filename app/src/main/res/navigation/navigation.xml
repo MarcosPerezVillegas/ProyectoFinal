@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navitagion"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.proyectoprueba.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/tablasFragment"
+        android:name="com.example.proyectoprueba.TablasFragment"
+        android:label="fragment_tablas"
+        tools:layout="@layout/fragment_tablas" >
+        <action
+            android:id="@+id/accion_Tablas_TablasPracticar"
+            app:destination="@id/tablasPracticarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tablasPracticarFragment"
+        android:name="com.example.proyectoprueba.tablasPracticarFragment"
+        android:label="fragment_tablas_practicar"
+        tools:layout="@layout/fragment_tablas_practicar" >
+        <action
+            android:id="@+id/accion_tablasPracticar_respuestaTablas"
+            app:destination="@id/respuestaTablasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/respuestaTablasFragment"
+        android:name="com.example.proyectoprueba.RespuestaTablasFragment"
+        android:label="fragment_respuesta_tablas"
+        tools:layout="@layout/fragment_respuesta_tablas" >
+        <action
+            android:id="@+id/accion_respuestaTablas_tablasPracticar"
+            app:destination="@id/tablasPracticarFragment" />
+    </fragment>
+</navigation>
