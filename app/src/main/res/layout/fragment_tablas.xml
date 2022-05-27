@@ -23,9 +23,11 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="170dp"
-                android:layout_height="match_parent"
+                android:layout_width="101dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
                 android:layout_weight="1"
+                app:srcCompat="@drawable/avatar"
                 tools:srcCompat="@drawable/avatar" />
 
             <LinearLayout
@@ -61,10 +63,13 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <Space
+                <TextView
+                    android:id="@+id/textView2"
                     android:layout_width="match_parent"
-                    android:layout_height="13dp"
-                    android:layout_weight="1" />
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Ver perfil" />
 
             </LinearLayout>
 
@@ -95,6 +100,7 @@
                 android:layout_marginEnd="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/avatar"
                 tools:srcCompat="@drawable/homero" />
 
             <ImageView
@@ -105,6 +111,7 @@
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/omniman"
                 tools:srcCompat="@drawable/omniman" />
 
             <Button

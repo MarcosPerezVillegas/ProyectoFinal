@@ -14,6 +14,7 @@ import marcos.fransisco.proyectofinal.R
 import kotlin.random.Random
 
 var respuestaCorrecta= false
+
 class tablasPracticarFragment : Fragment() {
     lateinit var trespuesta: EditText
     lateinit var tfactor1: TextView
