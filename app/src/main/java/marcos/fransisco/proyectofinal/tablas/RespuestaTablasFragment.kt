@@ -10,6 +10,7 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import com.airbnb.lottie.LottieAnimationView
 import marcos.fransisco.proyectofinal.R
+import marcos.fransisco.proyectofinal.respuestaCorrecta
 
 class RespuestaTablasFragment : Fragment() {
     lateinit var animationView: LottieAnimationView
@@ -22,7 +23,7 @@ class RespuestaTablasFragment : Fragment() {
         val vista = inflater.inflate(R.layout.fragment_respuesta_tablas, container, false)
         btnRegresarRe = vista.findViewById(R.id.btnRegresarRes)
         btnRegresarRe.setOnClickListener {
-            findNavController().navigate(R.id.accion_respuestaTablas_tablasPracticar)
+            findNavController().navigate(R.id.action_respuestaTablasFragment_to_tablasPracticarFragment)
         }
 
         animationView= vista.findViewById(R.id.animation_view)

@@ -16,17 +16,8 @@
         android:label="fragment_tablas"
         tools:layout="@layout/fragment_tablas" >
         <action
-            android:id="@+id/accion_Tablas_TablasPracticar"
+            android:id="@+id/action_tablasFragment_to_tablasPracticarFragment"
             app:destination="@id/tablasPracticarFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/tablasPracticarFragment"
-        android:name="marcos.fransisco.proyectofinal.tablasPracticarFragment"
-        android:label="fragment_tablas_practicar"
-        tools:layout="@layout/fragment_tablas_practicar" >
-        <action
-            android:id="@+id/accion_tablasPracticar_respuestaTablas"
-            app:destination="@id/respuestaTablasFragment" />
     </fragment>
     <fragment
         android:id="@+id/respuestaTablasFragment"
@@ -34,7 +25,7 @@
         android:label="fragment_respuesta_tablas"
         tools:layout="@layout/fragment_respuesta_tablas" >
         <action
-            android:id="@+id/accion_respuestaTablas_tablasPracticar"
+            android:id="@+id/action_respuestaTablasFragment_to_tablasPracticarFragment"
             app:destination="@id/tablasPracticarFragment" />
     </fragment>
     <fragment
@@ -69,4 +60,13 @@
         android:id="@+id/retrofitFragment2"
         android:name="marcos.fransisco.proyectofinal.Retrofit.RetrofitFragment"
         android:label="RetrofitFragment" />
+    <fragment
+        android:id="@+id/tablasPracticarFragment"
+        android:name="marcos.fransisco.proyectofinal.TablasPracticarFragment"
+        android:label="fragment_tablas_practicar"
+        tools:layout="@layout/fragment_tablas_practicar" >
+        <action
+            android:id="@+id/action_tablasPracticarFragment_to_respuestaTablasFragment"
+            app:destination="@id/respuestaTablasFragment" />
+    </fragment>
 </navigation>

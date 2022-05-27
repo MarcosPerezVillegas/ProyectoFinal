@@ -19,7 +19,7 @@ class TablasFragment : Fragment() {
         val vistaFragmentoTablas = inflater.inflate(R.layout.fragment_tablas, container, false)
         btnPracticar=vistaFragmentoTablas.findViewById(R.id.btnIrPracticar)
         btnPracticar.setOnClickListener {
-            findNavController().navigate(R.id.accion_Tablas_TablasPracticar)
+            findNavController().navigate(R.id.action_tablasFragment_to_tablasPracticarFragment)
         }
         return vistaFragmentoTablas
     }

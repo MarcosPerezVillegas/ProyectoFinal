@@ -1,4 +1,4 @@
-package marcos.fransisco.proyectofinal.tablas
+package marcos.fransisco.proyectofinal
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
-import marcos.fransisco.proyectofinal.R
 import kotlin.random.Random
 
 var respuestaCorrecta= false
-
 class TablasPracticarFragment : Fragment() {
     lateinit var trespuesta: EditText
     lateinit var tfactor1: TextView
@@ -57,7 +55,7 @@ class TablasPracticarFragment : Fragment() {
                 else{
                     respuestaCorrecta =false
                 }
-                findNavController().navigate(R.id.accion_tablasPracticar_respuestaTablas)
+                findNavController().navigate(R.id.action_tablasPracticarFragment_to_respuestaTablasFragment)
             }
         }
         return vistaPracticarTablas
