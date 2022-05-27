@@ -13,4 +13,8 @@
         android:icon="@drawable/ic_api"
         android:id="@+id/volleyFragment"
         />
+    <item android:title="Juego"
+        android:icon="@drawable/ic_game"
+        android:id="@id/juegoFragment"
+        />
 </menu>

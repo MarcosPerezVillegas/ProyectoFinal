@@ -1,4 +1,4 @@
-package marcos.fransisco.proyectofinal
+package marcos.fransisco.proyectofinal.tablas
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,12 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
+import marcos.fransisco.proyectofinal.R
 import kotlin.random.Random
 
 var respuestaCorrecta= false
 
-class tablasPracticarFragment : Fragment() {
+class TablasPracticarFragment : Fragment() {
     lateinit var trespuesta: EditText
     lateinit var tfactor1: TextView
     lateinit var tfactor2: TextView

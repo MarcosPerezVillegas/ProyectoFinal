@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_inicio" />
     <fragment
         android:id="@+id/tablasFragment"
-        android:name="marcos.fransisco.proyectofinal.TablasFragment"
+        android:name="marcos.fransisco.proyectofinal.tablas.TablasFragment"
         android:label="fragment_tablas"
         tools:layout="@layout/fragment_tablas" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/respuestaTablasFragment"
-        android:name="marcos.fransisco.proyectofinal.RespuestaTablasFragment"
+        android:name="marcos.fransisco.proyectofinal.tablas.RespuestaTablasFragment"
         android:label="fragment_respuesta_tablas"
         tools:layout="@layout/fragment_respuesta_tablas" >
         <action
@@ -41,4 +41,28 @@
         android:id="@+id/volleyFragment"
         android:name="marcos.fransisco.proyectofinal.volley.VolleyFragment"
         android:label="VolleyFragment" />
+    <fragment
+        android:id="@+id/juegoFragment"
+        android:name="marcos.fransisco.proyectofinal.juego.JuegoFragment"
+        android:label="JuegoFragment" >
+        <action
+            android:id="@+id/action_juegoFragment_to_adivinarFragment"
+            app:destination="@id/adivinarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adivinarFragment"
+        android:name="marcos.fransisco.proyectofinal.juego.AdivinarFragment"
+        android:label="AdivinarFragment" >
+        <action
+            android:id="@+id/action_adivinarFragment_to_resultadoJuegoFragment"
+            app:destination="@id/resultadoJuegoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoJuegoFragment"
+        android:name="marcos.fransisco.proyectofinal.juego.ResultadoJuegoFragment"
+        android:label="ResultadoJuegoFragment" >
+        <action
+            android:id="@+id/action_resultadoJuegoFragment_to_adivinarFragment"
+            app:destination="@id/adivinarFragment" />
+    </fragment>
 </navigation>

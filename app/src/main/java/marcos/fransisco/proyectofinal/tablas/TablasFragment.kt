@@ -1,4 +1,4 @@
-package marcos.fransisco.proyectofinal
+package marcos.fransisco.proyectofinal.tablas
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

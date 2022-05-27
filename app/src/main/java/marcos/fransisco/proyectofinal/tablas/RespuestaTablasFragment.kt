@@ -1,4 +1,4 @@
-package marcos.fransisco.proyectofinal
+package marcos.fransisco.proyectofinal.tablas
 
 
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import com.airbnb.lottie.LottieAnimationView
+import marcos.fransisco.proyectofinal.R
 
 class RespuestaTablasFragment : Fragment() {
     lateinit var animationView: LottieAnimationView
