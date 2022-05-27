@@ -37,4 +37,8 @@
             android:id="@+id/accion_respuestaTablas_tablasPracticar"
             app:destination="@id/tablasPracticarFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/volleyFragment"
+        android:name="marcos.fransisco.proyectofinal.volley.VolleyFragment"
+        android:label="VolleyFragment" />
 </navigation>

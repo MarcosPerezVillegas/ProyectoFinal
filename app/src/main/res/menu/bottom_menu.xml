@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Home"
+    <item android:title="@string/Home"
         android:icon="@drawable/ic_home"
         android:id="@+id/inicioFragment"
         />
-    <item android:title="Tablas"
+    <item android:title="@string/Tablas"
         android:icon="@drawable/ic_tablas"
-        android:id="@+id/tablasFragment"/>
+        android:id="@+id/tablasFragment"
+        />
+    <item android:title="@string/Volley"
+        android:icon="@drawable/ic_api"
+        android:id="@+id/volleyFragment"
+        />
 </menu>
