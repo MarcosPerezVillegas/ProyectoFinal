@@ -17,4 +17,8 @@
         android:icon="@drawable/ic_game"
         android:id="@id/juegoFragment"
         />
+    <item android:title="Retrofit"
+        android:icon="@drawable/ic_pets"
+        android:id="@id/retrofitFragment2"
+        />
 </menu>

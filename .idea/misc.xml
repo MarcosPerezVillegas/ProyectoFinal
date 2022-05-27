@@ -4,16 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
-        <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_adivinar.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_inicio.xml" value="0.28940217391304346" />
-        <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_juego.xml" value="0.35260416666666666" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_respuesta_tablas.xml" value="0.28940217391304346" />
-        <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_resultado_juego.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_tablas.xml" value="0.28940217391304346" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_tablas_practicar.xml" value="0.28940217391304346" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/fragment_volley.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/vista_singular.xml" value="0.35260416666666666" />
         <entry key="..\:/AndroidStudioProjects/ProyectoFinal/app/src/main/res/menu/bottom_menu.xml" value="0.1164021164021164" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_inicio.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_respuesta_tablas.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_resultado_juego.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_retrofit.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_tablas.xml" value="0.1" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/fragment_tablas_practicar.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/layout/item_perro.xml" value="0.1796875" />
+        <entry key="..\:/Tareas/Android/ProyectoFinal/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

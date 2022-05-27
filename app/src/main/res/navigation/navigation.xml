@@ -65,4 +65,8 @@
             android:id="@+id/action_resultadoJuegoFragment_to_adivinarFragment"
             app:destination="@id/adivinarFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/retrofitFragment2"
+        android:name="marcos.fransisco.proyectofinal.Retrofit.RetrofitFragment"
+        android:label="RetrofitFragment" />
 </navigation>

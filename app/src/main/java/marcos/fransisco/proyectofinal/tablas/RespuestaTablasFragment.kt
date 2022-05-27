@@ -19,20 +19,19 @@ class RespuestaTablasFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val vistaRespuestaTablas = inflater.inflate(R.layout.fragment_resultado_juego, container, false)
-        btnRegresarRe = vistaRespuestaTablas.findViewById(R.id.btnRegresarRes)
-
+        val vista = inflater.inflate(R.layout.fragment_respuesta_tablas, container, false)
+        btnRegresarRe = vista.findViewById(R.id.btnRegresarRes)
         btnRegresarRe.setOnClickListener {
             findNavController().navigate(R.id.accion_respuestaTablas_tablasPracticar)
         }
 
-        animationView= vistaRespuestaTablas.findViewById(R.id.animation_view)
+        animationView= vista.findViewById(R.id.animation_view)
 
         if (respuestaCorrecta){
             animationView.setAnimation(R.raw.success)
         }else{
             animationView.setAnimation(R.raw.wrong)
         }
-        return vistaRespuestaTablas
+        return vista
     }
 }

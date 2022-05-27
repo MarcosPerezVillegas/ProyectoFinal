@@ -33,18 +33,18 @@ class ResultadoJuegoFragment : Fragment() {
 
         initUi()
 
-        var sonidoCorrecto = MediaPlayer.create(requireContext(), R.raw.correctsound)
-        var sonidoIncorrecto = MediaPlayer.create(requireContext(),R.raw.incorrectsound)
+        var sonidoCorrecto = MediaPlayer.create(requireContext(), R.raw.correcto)
+        var sonidoIncorrecto = MediaPlayer.create(requireContext(),R.raw.incorrecto)
 
         btnRegresar.setOnClickListener{
             findNavController().navigate(R.id.action_resultadoJuegoFragment_to_adivinarFragment)
         }
 
         if(respuestaAcertada){
-            animView.setAnimation(R.raw.correct)
+            animView.setAnimation(R.raw.success)
             sonidoCorrecto.start()
         }else{
-            animView.setAnimation(R.raw.incorrect)
+            animView.setAnimation(R.raw.wrong)
             sonidoIncorrecto.start()
         }
 
