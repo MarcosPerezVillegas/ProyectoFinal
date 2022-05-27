@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/inicioFragment"
-        android:name="com.example.proyectoprueba.InicioFragment"
+        android:name="marcos.fransisco.proyectofinal.InicioFragment"
         android:label="fragment_inicio"
         tools:layout="@layout/fragment_inicio" />
     <fragment
         android:id="@+id/tablasFragment"
-        android:name="com.example.proyectoprueba.TablasFragment"
+        android:name="marcos.fransisco.proyectofinal.TablasFragment"
         android:label="fragment_tablas"
         tools:layout="@layout/fragment_tablas" >
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/tablasPracticarFragment"
-        android:name="com.example.proyectoprueba.tablasPracticarFragment"
+        android:name="marcos.fransisco.proyectofinal.tablasPracticarFragment"
         android:label="fragment_tablas_practicar"
         tools:layout="@layout/fragment_tablas_practicar" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/respuestaTablasFragment"
-        android:name="com.example.proyectoprueba.RespuestaTablasFragment"
+        android:name="marcos.fransisco.proyectofinal.RespuestaTablasFragment"
         android:label="fragment_respuesta_tablas"
         tools:layout="@layout/fragment_respuesta_tablas" >
         <action

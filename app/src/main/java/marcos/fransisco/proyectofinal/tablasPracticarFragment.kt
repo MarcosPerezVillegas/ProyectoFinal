@@ -1,6 +1,5 @@
-package com.example.proyectoprueba
+package marcos.fransisco.proyectofinal
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,7 +9,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
-import marcos.fransisco.proyectofinal.R
 import kotlin.random.Random
 
 var respuestaCorrecta= false
@@ -52,11 +50,11 @@ class tablasPracticarFragment : Fragment() {
             }
             else{
                 if (respuesta==strRespuesta.toInt()){
-                    respuestaCorrecta=true
+                    respuestaCorrecta =true
                     trespuesta.text.clear()
                 }
                 else{
-                    respuestaCorrecta=false
+                    respuestaCorrecta =false
                 }
                 findNavController().navigate(R.id.accion_tablasPracticar_respuestaTablas)
             }
