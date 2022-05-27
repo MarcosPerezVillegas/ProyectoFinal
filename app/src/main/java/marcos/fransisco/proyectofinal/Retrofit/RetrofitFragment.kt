@@ -1,13 +1,12 @@
 package marcos.fransisco.proyectofinal.Retrofit
 
-import android.app.Activity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.appcompat.widget.SearchView
+import android.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.CoroutineScope
@@ -24,16 +23,16 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitFragment : Fragment(), SearchView.OnQueryTextListener {
     lateinit var adapter: PerroAdapter
-    lateinit var searchView: SearchView
+    lateinit var sV: SearchView
     lateinit var recyclerPerro: RecyclerView
+
     private val imagenesPerros = mutableListOf<String>()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val vista = inflater.inflate(R.layout.fragment_retrofit, container, false)
-        searchView= vista.findViewById(R.id.svPerro)
-        searchView.setOnQueryTextListener(this)
+        vista.findViewById<SearchView>(R.id.svPerro).setOnQueryTextListener(this)
         recyclerPerro=vista.findViewById(R.id.rvPerro)
         initRecyclerView()
         return vista

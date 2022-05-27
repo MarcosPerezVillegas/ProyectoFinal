@@ -15,6 +15,7 @@ class PerroAdapter (val imagenes:List<String>): RecyclerView.Adapter<PerroViewHo
 
     override fun onBindViewHolder(holder: PerroViewHolder, position: Int) {
         val item:String = imagenes[position]
+        holder.bind(item)
     }
 
     override fun getItemCount(): Int = imagenes.size
