@@ -23,7 +23,7 @@ class ResultadoJuegoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val vista = inflater.inflate(R.layout.fragment_juego, container, false)
+        val vista = inflater.inflate(R.layout.fragment_resultado_juego, container, false)
 
         fun initUi(){
             animView = vista.findViewById(R.id.animation_view)
@@ -48,7 +48,7 @@ class ResultadoJuegoFragment : Fragment() {
             sonidoIncorrecto.start()
         }
 
-        tvRespuestaCorrecta.text = respuestaAcertada.toString()
+        tvRespuestaCorrecta.text = numAleatorio.toString()
 
         return vista
     }

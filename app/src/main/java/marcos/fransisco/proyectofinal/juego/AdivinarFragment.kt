@@ -25,7 +25,7 @@ class AdivinarFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val vista = inflater.inflate(R.layout.fragment_juego, container, false)
+        val vista = inflater.inflate(R.layout.fragment_adivinar, container, false)
 
         fun generaNumero(){
             numAleatorio = Random.nextInt(1,5)
