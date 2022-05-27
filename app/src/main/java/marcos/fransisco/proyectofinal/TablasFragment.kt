@@ -7,13 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
-import android.R
+import marcos.fransisco.proyectofinal.R
+
 
 class TablasFragment : Fragment() {
-    private var param1: String? = null
-    private var param2: String? = null
     lateinit var btnPracticar : Button
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

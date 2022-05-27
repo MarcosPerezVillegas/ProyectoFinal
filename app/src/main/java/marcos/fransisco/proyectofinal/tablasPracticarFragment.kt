@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import android.R
 import androidx.navigation.fragment.findNavController
+import marcos.fransisco.proyectofinal.R
 import kotlin.random.Random
 
 var respuestaCorrecta= false
@@ -27,7 +27,7 @@ class tablasPracticarFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val vistaPracticarTablas = inflater.inflate(R.layout., container, false)
+        val vistaPracticarTablas = inflater.inflate(R.layout.fragment_tablas_practicar, container, false)
         fun multi(){
             factor1 = Random.nextInt(0,10)
             factor2 = Random.nextInt(0,10)
